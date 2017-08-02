@@ -154,9 +154,9 @@ public class MainActivity extends AppCompatActivity {
                     int cy = (int) landmark.getPosition().y;
                     canvas.drawCircle(cx, cy, 5, paint);
 
-                    Drawable dw = getResources().getDrawable(R.mipmap.ic_launcher);
+                    /*Drawable dw = getResources().getDrawable(R.mipmap.ic_launcher);
                     Bitmap bw = ((BitmapDrawable) d).getBitmap();
-                    canvas.drawBitmap(b, cx, cy, paint);
+                    canvas.drawBitmap(b, cx, cy, paint);*/
                 }
             }
             if (faces.size() == 0){

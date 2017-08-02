@@ -6,6 +6,7 @@ android {
     defaultConfig {
         applicationId "vishnu.android.fdtect"
         minSdkVersion 16
+        //noinspection OldTargetApi
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -27,5 +28,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile 'junit:junit:4.12'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.google.android.gms:play-services-vision:10.2.6'
+    compile 'com.google.android.gms:play-services-vision:11.0.4'
 }

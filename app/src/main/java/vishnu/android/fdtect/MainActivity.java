@@ -33,7 +33,9 @@ import com.google.android.gms.vision.face.Landmark;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-
+/*
+* fifth commit
+* */
 public class MainActivity extends AppCompatActivity {
     private final int PERMISSION_ACCESS_CAMERA = 100, PHOTO_REQUEST = 200;
     private boolean cameraPermission = false, writeToExternalPermission = false;
